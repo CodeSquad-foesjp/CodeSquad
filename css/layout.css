@@ -727,7 +727,7 @@ ul.features li:nth-child(even) { }
 (min-resolution: 192dpi) {
 
 	#testimonials {
-		background: #10999E url(img/escheresque_@2X.png);
+		background: #10999E url(../images/background.jpg);
 		background-size: 46px 29px;
 	}
   
