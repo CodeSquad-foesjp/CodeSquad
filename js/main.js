@@ -150,7 +150,7 @@
 		var timeinterval = setInterval(updateClock, 1000);
 	}
 
-	var deadline = "january 16,2021 21:00:00"//new Date(Date.parse(new Date()) + 6 * 24 * 60 * 60 * 1000);
+	var deadline = "january 16,2021 20:00:00"//new Date(Date.parse(new Date()) + 6 * 24 * 60 * 60 * 1000);
 	initializeClock('clockdiv', deadline);
 
 	/*----------------------------------------------------*/
