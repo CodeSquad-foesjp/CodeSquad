@@ -493,7 +493,7 @@ ul#nav li.current a { color: #fff; }
 	/* background: #F7F7F7; */
    padding-top: 20px;
    padding-bottom: 10px; 
-   padding-left: 77px;   
+   padding-left: 20px;   
    /* border-top: 1px solid #F0F0F0;
    border-bottom: 1px solid #F0F0F0; */
    font-weight: 600;
@@ -501,6 +501,16 @@ ul#nav li.current a { color: #fff; }
    color: black;
 }
 
+@media(min-width: 768px){
+   #rules {
+      padding-top: 20px;
+      padding-bottom: 10px;   
+      /* border-top: 1px solid #F0F0F0;
+      border-bottom: 1px solid #F0F0F0; */
+      font-weight: 600;
+      color: black;
+   }
+}
 #pricing {
    /* background: #ffccff; */
 	/* background: #F7F7F7; */
