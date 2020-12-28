@@ -26,7 +26,10 @@
 /* a. General and Common Styles
 /* ------------------------------------------------------------------ */
 
-body { background: white; }
+body { 
+   background: url(../images/background_blur.jpg);
+   /* background: white; */
+ }
 
 .section-head {
   	padding: 0 4%;
@@ -134,6 +137,14 @@ header .header-social li {
 
 /* hide toggle button */
 #nav-wrap > a { display: none; }
+
+ul#rules li {
+   line-height: 2.5;
+}
+
+ul#rules{
+   list-style-type: circle;
+}
 
 ul#nav {
    min-height: 54px;
@@ -478,13 +489,27 @@ ul#nav li.current a { color: #fff; }
 /*	e. Pricing Section
 /*----------------------------------------------*/
 
+#rules {
+	/* background: #F7F7F7; */
+   padding-top: 20px;
+   padding-bottom: 10px; 
+   padding-left: 77px;   
+   /* border-top: 1px solid #F0F0F0;
+   border-bottom: 1px solid #F0F0F0; */
+   font-weight: 600;
+   text-align: left;
+   color: black;
+}
+
 #pricing {
-	background: #F7F7F7;
+   /* background: #ffccff; */
+	/* background: #F7F7F7; */
    padding-top: 107px;
    padding-bottom: 77px;   
    border-top: 1px solid #F0F0F0;
    border-bottom: 1px solid #F0F0F0;
    text-align: center;
+   color: black;
 }
 #pricing .price-block {
    background: #fff;
@@ -492,6 +517,7 @@ ul#nav li.current a { color: #fff; }
    text-align: center;
    margin-bottom: 36px;
 }
+
 .plan-title {
   	font: 15px/30px 'montserrat-regular', sans-serif;
   	padding: 30px 20px 6px 20px;
