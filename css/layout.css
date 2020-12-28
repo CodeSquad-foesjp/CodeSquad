@@ -140,6 +140,21 @@ header .header-social li {
 
 ul#rules li {
    line-height: 2.5;
+   
+}
+
+
+@media only screen and (max-width: 767px) {
+   ul#rules li {
+   padding-top: 20px;
+   padding-bottom: 10px; 
+   padding-right: 10px;   
+   /* border-top: 1px solid #F0F0F0;
+   border-bottom: 1px solid #F0F0F0; */
+   font-weight: 600;
+   text-align: left;
+   color: black;
+}
 }
 
 ul#rules{
@@ -493,6 +508,8 @@ ul#nav li.current a { color: #fff; }
 	background: url(../images/background_spons.jpg);
 
 }
+
+
 
 
 #rules {
