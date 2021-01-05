@@ -3,8 +3,10 @@ p#reg {
     font-family: Impact, sans-serif;
     font-size: 45px;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, #fffb00, rgb(211, 99, 99), rgb(171, 151, 187));
+
+    background: linear-gradient(90deg, #7631d1, rgb(250, 45, 45), rgb(171, 151, 187));
     background-repeat: no-repeat;
+    background-color: rgb(124, 255, 112);
     background-size: 80%;
     animation: animate 5s infinite;
     -webkit-background-clip: text;
@@ -12,7 +14,7 @@ p#reg {
   }
   
   @keyframes animate {
-    0% {
+    50% {
       background-position: -500%;
     }
     100% {
