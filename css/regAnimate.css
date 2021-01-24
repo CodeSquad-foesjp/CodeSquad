@@ -1,7 +1,7 @@
 p#reg {
     position: relative;
     font-family: Calibri, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     letter-spacing: 1px;
     background: linear-gradient(90deg, #7631d1, rgb(250, 45, 45), rgb(171, 151, 187));
@@ -20,4 +20,4 @@ p#reg {
     100% {
       background-position: 500%;
     }
-  }x
+  }
